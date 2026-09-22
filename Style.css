@@ -1,0 +1,131 @@
+*,
+*::before,
+*::after 
+{ box-sizing: border-box; }
+
+body {
+	background: #e8e4d9;
+	color: #0a0a0a;
+	font-family: "Courier New", Courier, monospace;
+	margin: 0;
+	Line-height:1.6;
+}
+
+main {
+	max-width: 65rem;
+	width: 100%;
+	margin: 0 auto;
+	padding:0 1rem;
+}
+
+h1 {
+	padding: 0 25rem;
+	font-size: 3.5rem;
+	text-transform: uppercase;
+	letter-spacing: 0.1rem;
+	font-weight: 900;
+}
+
+h2 {
+	font-size: 2rem;
+	text-transform:uppercase;
+	letter-spacing: 0.05em;
+}
+
+p {
+	padding: 0 30rem;
+}
+
+a {
+	color: #0047ff;
+	text-decoration: none;
+}
+
+a:hover {
+	background: #0a0a0a;
+	color: #fff;
+}
+
+blockquote {
+	border: 2px solid #0a0a0a;
+	padding: 1rem;
+	margin: 2rem auto;
+	max-width: 40rem;
+}
+
+button {
+	border: 2px solid #0a0a0a;
+	padding: 0.75rem 1.5rem;
+	margin: 1.5rem 0;
+	background: #ff3b00;
+	color: #fff;
+	font-family: inherit;
+	font-weight: bolder;
+	text-transform: uppercase;
+	box-shadow: 8px 8px 0 #0a0a0a;
+	cursor: pointer;
+}
+
+button:hover {
+	background: #0047ff;
+}
+
+nav {
+	display: flex;
+	gap: 1.5rem;
+	justify-content: center;
+	padding: 1rem 0;
+}
+
+.line-up {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1rem;
+	padding: 0;
+	list-style: none;
+}
+
+.line-up li {
+	flex: 1 1 12rem;
+	border: 2px solid #0a0a0a;
+	padding: 1rem;
+	position: relative;
+}
+
+.line-up li strong {
+	color: #ff3b00;
+}
+
+.badge {
+	position: absolute;
+	top: -0.6rem;
+	right: -0.6rem;
+	background: #0047ff;
+	color: #fff;
+	font-size: 0.75rem;
+	text-transform: uppercase;
+	padding: 0.25rem 0.5rem;
+	border: 2px solid #0a0a0a;
+}
+
+#tickets table {
+	width: 100%;
+	border-collapse: collapse;
+	margin: 1.5rem 0;
+}
+
+#tickets th,
+#tickets td {
+	border: 2px solid #0a0a0a;
+	padding: 0.5rem 1rem;
+	text-align: left;
+}
+
+footer {
+	padding: 0 5rem;
+}
+
+img {
+	max-width: 100%;
+	height: auto;
+}
